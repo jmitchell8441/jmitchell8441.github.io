@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel ="stylesheet" href ="mywebsite.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="secondPage.css">
+<link rel="stylesheet" href="thirdpage.css">
+<link rel="stylesheet" href="fourthPage.css">
+
+</head>
+    <body>
+        <!--header-->
+            <ul class="navbar">
+                <li><a class = "nav" href="#first">Home</a></li>
+                <li><a class = "nav" href="#about">About Me</a></li>
+                <li class = "dropdown"> 
+                    <a class = "dropdownbutton" href="#projects">Projects</a>
+                    <div class = "dropdown-list">
+                        <a href = "Projects.html">Project 1</a>
+                        <a href = "Projects.html">Project 2</a>
+                        <a href = "Projects.html">Project 3</a>
+                    </div>
+                </li>
+                <li> <a class = "nav" href="workExp.html">Work Experience</a></li>
+            </ul>
+        <!--/header-->
+        <div id="first" class="firstpage" style="height: 1291px;">
+            <div class= "intro">
+                <h1>Jabari Mitchell</h1>
+                <h3>
+                    <span>Computer Science Graduate</span>
+                     | 
+                    <span>Software Engineer</span>
+                </h3>
+                <ul class="socials">
+                    <li class="socials">
+                        <a href = "https://github.com/jmitchell8441">
+                            <i class = "fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="socials">
+                        <a href = "https://www.linkedin.com/in/jmitchell441/">
+                            <i class = "fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="socials">
+                        <a href = "mailto:jabari.m.mitchell@gmail.com">
+                            <i class = "fa fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- This is the about page -->
+        <div id="about" class="secondpage" >
+            <div class ="aboutme">
+                <h1 style="margin-bottom: 10px;">About Me</h1>
+                <h2>A little bit about myself</h2>
+                    <div class="two">
+                        
+                        <div class="twochild"><img src="images/profile.jpg" style="height: 300px; width: 300px; border-radius: 50%;"></div>
+                        <div class="twochild" style="text-align: center;">
+                            <p>
+                                <br>
+                                <h4>Name:</h4>Jabari Mitchell<br><br>
+                                <h4>Birthday: </h4>August 24, 2000<br><br>
+                                <h4>Email: </h4>jabari.m.mitchell@gmail.com<br><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="aboutinfo">
+                        <p> I am a computer science graduate looking for a job in the software engineering field. 
+                        I graduated Georgia State University in 2022 of Winter. I am looking for software engineering/development 
+                        or web development entry level jobs. Although I have no work experience, I hope to show you even then
+                        that I can put in the work. I want to learn more and improve on my skills while being able to contribute
+                        to the company.</p>
+                        </div>
+            </div>
+            <div class="aboutme">
+            <div class="two">
+                <div class="twochild" style="padding-right: 100px;">
+                    <h1>Skills</h1>
+                    <p>Java</p>
+                        <div class="containerskill">
+                            <div class="skill java">80%</div>
+                        </div>
+                        <p>HTML/CSS/JS</p>
+                        <div class="containerskill">
+                            <div class="skill htmlcssjs">70%</div>
+                        </div>
+                        <p>C#</p>
+                        <div class="containerskill">
+                            <div class="skill csharp">70%</div>
+                        </div>
+                        <p>Python</p>
+                        <div class="containerskill">
+                            <div class="skill python">50%</div>
+                        </div>
+                    </div>
+                    <div class="twochild">
+                        <h1>Contact Me</h1>
+                        <p style="text-align:center;"> <br>I am currently looking for an internship or entry-level job in software engineering/development, web development, game development or anything in that area! <br><br><br> <a href="files/Jabari Mitchell - Resume 2.docx" title="Download Resume" class="resume" style="text-align: center;">Download Resume</a></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="thirdpage">
+                <div class="header"> 
+                    <h1>Projects</h1>
+                    <h2 style="margin-bottom:10px;">  Here are the projects I have worked on</h2>
+                </div>
+                <div class="grid">
+                    <div class="gridelements">
+                        <div class="projectpic">
+                            <img src="images/project1.gif">
+                        </div>
+                        <a href="https://github.com/jmitchell8441/FInal-Project-3D-Compuiter-Graphics" target="_blank">
+                            <div class="projdesc">
+                                <h5>Grapple Adventure</h5>
+                                <p>Unity game using C#</p>
+                            </div>
+                        </a>
+                    </div>
+                        
+                    <div class="gridelements">
+                        <div class="projectpic">
+                            <img src="images/project2.gif">
+                        </div>
+                    <a href="https://github.com/jmitchell8441/15piecepuzzle" target="_blank">
+                        <div class="projdesc">
+                            <h5>15-Piece Puzzle</h5>
+                            <p>Javascipt puzzle with multiple features</p>
+                        </div>
+                    </div>
+                    </a>
+                    <div class="gridelements">
+                        <div class="projectpic"><img src="images/project3.gif"></div>
+                        <a href="https://github.com/jmitchell8441/php-hangman" target="_blank">
+                            <div class="projdesc">
+                                <h5>PHP Hangman</h5>
+                                <p>hangman game using php</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gridelements">
+                        <div class="projectpic"><img src="images/project3.gif"></div>
+                            <div class="projdesc">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                
+
+            </div>
+
+            <div id="timelinee" class="fourthpage">
+                <h1>Expereince</h1>
+                <div class="timeline">
+                    <div class="container left">
+                      <div class="content">
+                        <h2>2017</h2>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                      </div>
+                    </div>
+                    <div class="container right">
+                      <div class="content">
+                        <h2>2016</h2>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                      </div>
+                    </div>
+                    <div class="container left">
+                      <div class="content">
+                        <h2>2015</h2>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                      </div>
+                    </div>
+                    <div class="container right">
+                      <div class="content">
+                        <h2>2012</h2>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                      </div>
+                    </div>
+                    <div class="container left">
+                      <div class="content">
+                        <h2>2011</h2>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

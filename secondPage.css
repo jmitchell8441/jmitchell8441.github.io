@@ -1,0 +1,123 @@
+.secondpage{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #030014;
+    color:aliceblue;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: 'opensans-regular', sans-serif;
+}
+
+
+
+.secondpage h1, h2, h3, h4, h5{
+    font-family: 'opensans-bold', sans-serif; 
+    text-align: center;
+}
+
+.secondpage h1{
+    font-size: 36px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.secondpage h4{
+    color: #4E4FEB;
+}
+
+.secondpage p{
+    line-height: 40px;
+}
+
+
+.two{
+    background-color:transparent;
+    width:100%; 
+    display:flex;
+}
+.personal{
+    background-color: transparent;
+    width: 500px;
+    margin:auto;
+    float: left;
+}
+.twocolumn{
+    float:left;
+    background-color: transparent;
+
+}
+
+.aboutme{
+    background-color:transparent;
+    margin: auto;
+    width: 1200px;
+}
+
+.aboutinfo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 19px;
+}
+
+.twochild{
+    float:left;
+    padding: 10px;
+    background-color: transparent;
+    width:50%;
+}
+
+.containerskill {
+    background-color: #18184b;
+    width: 100%;
+}
+
+.skill {
+    background-color: #4E4FEB;
+    color: white;
+    font-weight: bold;
+
+    padding: .01px;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 5x;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.java {
+    width: 80%;
+}
+
+.python {
+    width: 60%;
+}
+
+.htmlcssjs{
+    width: 70%;
+}
+
+.csharp{
+    width: 70%;
+}
+
+.resume{
+    width: 60%;
+    text-decoration: none;
+    border: none;
+    color: #EEEEEE;
+    padding: 12px 26px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.801); 
+    color: white;
+    border-radius: 2px;
+    margin: auto;
+    font-weight: bold;
+}
+.resume:hover{
+    background-color:#4E4FEB;
+}
