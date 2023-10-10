@@ -27,6 +27,7 @@ ul.navbar{
   width: auto;
   background-color: #333;
   text-align: center;
+  z-index: 10;
 }
 div.firstpage{
   width: 100%;
@@ -76,6 +77,7 @@ li a.nav:hover, .dropdown:hover {
   text-decoration: none;
   display: block;
   text-align: left;
+  z-index: 10;
 }
 
 .dropdown-list{
