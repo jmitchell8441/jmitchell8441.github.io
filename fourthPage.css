@@ -79,7 +79,7 @@
     margin: auto;
     height: 100%;
     width: 2px;
-    background: #efa22f;
+    background: aquamarine;
     top: 20px;
   }
   .single-timeline {
@@ -115,7 +115,7 @@
     width: 12px;
     height: 12px;
     left: -6px;
-    background: #efa22f;
+    background: aquamarine;
   }
   .single-timeline:nth-child(even) {
     -webkit-box-orient: horizontal;
